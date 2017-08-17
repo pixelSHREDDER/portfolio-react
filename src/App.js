@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+import projectData from './data/projects.json';
+//import './App.css';
 
 function Cube(props) {
-	const sides = props.sides.map((side =>
-		<div className="{side.videoUrl ? 'video'}">
+	const sides = props.sides.map((side, i) =>
+		<div key={i} className="{side.videoUrl ? 'video'}">
 		{side.title &&
 			<h2>{side.title}</h2>
 		}
@@ -15,7 +16,7 @@ function Cube(props) {
 			<p>{side.body}</p>
 		}
 		</div>
-	))
+	)
 	return (
 		<article id="cube.project.project_id" className="viewport">
 			<section className="cube">
@@ -38,11 +39,27 @@ function Column(props) {
 }
 
 class App extends Component {
-  render() {
-    return (
-      <div />
-    );
-  }
+	constructor() {
+		super();
+		this.state = {
+			projects: projectData
+		};
+	}
+
+	loadColumn(column) {
+		return (
+			<Column cubes={this.state.projects.categories[column]} />
+		);
+	}
+
+	render() {
+	const column = this.loadColumn('dv');
+		return (
+			<div>
+				{column}
+			</div>
+		);
+	}
 }
 
 export default App;

@@ -1,0 +1,223 @@
+{
+	"categories": {
+		"cr": [
+			{
+				"project_id": "project-odyssey",
+				"sides": [
+					{
+						"title": "<a href=\"https://www.behance.net/gallery/3489261/Odyssey-An-Immersive-Interactive-Experience\" target=\"_blank\">Project Odyssey</a>",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/cr-odyssey-1.png",
+							"alt": "Odyssey demo"
+						},
+						"body": "<p>A 360-degree audio-visual interactive experience, incorporating motion controls with Kinect to allow for free motion.</p>"
+					},{
+						"videoUrl": "https://www.youtube.com/v/KeAzs4laMsk?fs=1&amp;hl=en_GB&amp;rel=0&amp;modestbranding=1&amp;showinfo=0"
+					},{
+						"title": "Nuts and Bolts",
+						"body": "<p>We created an installation which combines a physical cylindrical screen made of plastic piping and stretchable fabric, and four short-throw projectors with image stitching software applied to create the display solution.</p><p>We also incorporated 5.1 surround sound speakers and Kinect-based motion controls to control movement. We developed software in Unity and designed it to be experienced exclusively on the Odyssey platform.</p>"
+					},{
+						"img": {
+							"src": "//pixel-shredder.com/port/images/cr-odyssey-4.png",
+							"alt": "Odyssey installation diagram"
+						},
+						"body": "<p></p><h2>For more info, check out my <a href=\"https://www.behance.net/gallery/3489261/Odyssey-An-Immersive-Interactive-Experience\" target=\"_blank\">Behance page</a> for this project.</h2>"
+					}
+				]
+			},{
+				"project_id": "boys-and-girls-club-promotional-kiosk",
+				"sides": [
+					{
+						"title": "<a href=\"https://www.behance.net/gallery/1287059/DESIGNDEVELOPMENT-Boys-Girls-Club-Promotional-Kiosk\" target=\"_blank\">Boys & Girls Club Promotional Kiosk</a>",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/cr-kiosk-1.png",
+							"alt": "Boys & Girls Club promotional kiosk"
+						},
+						"body": "<p>Nintendo GameCube kiosk that was salvaged, restored, and rebranded.</p>"
+					},{
+						"title": "Before & After",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/cr-kiosk-2.png",
+							"alt": "Before and after view"
+						},
+						"body": "<p>Comparison of a similar kiosk and the finished product. The TV and marquee lights were replaced. The plastic dome, Nintendo branding, GameCube, and controllers were all removed.</p>"
+					},{
+						"title": "Nuts and Bolts",
+						"body": "<p>An uncased Xbox replaced the GameCube and its controllers in the system area, dubbed the \"brain\". Extra fans were added to aid cooling, and the power and reset buttons were relocated to the side of the unit. The disc tray lid was removed, and a sheet of clear mylar placed on top of the brain, to show off its contents.</p><p>New badges were printed up for the controllers, and new art was created for the marquee and several other spots.</p>"
+					},{
+						"img": {
+							"src": "//pixel-shredder.com/port/images/cr-kiosk-4.png",
+							"alt": "Kiosk rebranding"
+						},
+						"body": "<p></p><h2>For more info, check out my <a href=\"https://www.behance.net/gallery/1287059/DESIGNDEVELOPMENT-Boys-Girls-Club-Promotional-Kiosk\" target=\"_blank\">Behance page</a> for this project.</h2>"
+					}
+				]
+			},{
+				"project_id": "custom-skateboard-deck",
+				"sides": [
+					{
+						"title": "<a href=\"https://www.behance.net/gallery/777117/DESIGN-Sega-Saturn-Skateboard-Deck\" target=\"_blank\">Custom Skateboard Deck</a>",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/cr-saturndeck-1.gif",
+							"alt": "Custom skateboard deck animation"
+						},
+						"body": "<p>Skateboard deck with custom-designed art, applied on the top side under clear grip tape.</p>"
+					},{
+						"videoUrl": "https://www.youtube.com/v/R85yQqn2gcw?fs=1&amp;hl=en_GB&amp;rel=0&amp;modestbranding=1&amp;showinfo=0"
+					},{
+						"title": "The Artwork",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/cr-saturndeck-3.png",
+							"alt": "The artwork"
+						},
+						"body": "<p>The artwork was done in Photoshop- a simple homage to my favorite game console of all time, the oft-underrated Sega Saturn.</p>"
+					},{
+						"body": "<h2>For more info, check out my <a href=\"https://www.behance.net/gallery/777117/DESIGN-Sega-Saturn-Skateboard-Deck\" target=\"_blank\">Behance page</a> for this project.</h2>"
+					}
+				]
+			}
+		],
+		"ds": [
+			{
+				"project_id": "paper-airplane-business-cards",
+				"sides": [
+					{
+						"title": "<a href=\"https://www.behance.net/gallery/6978731/DESIGN-Paper-Airplane-Business-Cards\" target=\"_blank\">Paper Airplane Business Cards</a>",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/ds-businesscard-1.png",
+							"alt": "Paper airplane business card"
+						},
+						"body": "<p>A business card that transforms into a paper airplane!</p>"
+					},{
+						"title": "Background",
+						"body": "<p>As part of my ridiculously long hunt for a job for after graduation, I decided to make myself a set of business cards to hand out along with my resumes at job fairs. I knew I wanted something that would stand out with recruiters, and reflect my personality.</p><p>After researching tons of crazy business cards, and coming across an origami-inspired business card from a local designer, I came up with a crazy new concept: a business card that doubles as a paper airplane.</p>"
+					},{
+						"title": "Background, Part 2",
+						"body": "<p>Years of folding paper airplanes as a kid came in handy as I experimented with the best approach to my folding card, as I iterated my initial design. I knew I wanted my business card to be able to fold flat like a traditional 3 1/2\" x 2\", so it wouldn't be cumbersome for employers to deal with when in \"business card mode\". That required using thinner card stock with no gloss layer, and coming up with a folding mechanism to hold the wings of the plane in place while folded up.</p>"
+					},{
+						"img": {
+							"src": "//pixel-shredder.com/port/images/ds-businesscard-4.png",
+							"alt": "Paper airplane business card, in action"
+						},
+						"body": "<h2>For more info, check out my <a href=\"https://www.behance.net/gallery/6978731/DESIGN-Paper-Airplane-Business-Cards\" target=\"_blank\">Behance page</a> for this project.</h2>"
+					}
+				]
+			},{
+				"project_id": "sega-saturn-themed-resume",
+				"sides": [
+					{
+						"title": "<a href=\"https://www.behance.net/gallery/1199679/DESIGN-Old-School-Resume-Case\" target=\"_blank\">Sega Saturn Themed R&eacute;sum&eacute;</a>",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/ds-resume-1.png",
+							"alt": "Sega Saturn themed resume"
+						},
+						"body": "<p>Because cover letters are for suckers.</p>"
+					},{
+						"title": "Front Cover",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/ds-resume-2.png",
+							"alt": "Sega Saturn themed resume front cover"
+						},
+						"body": "<p>This is the front insert, which doubles as the graphic on the front of the \"manual\" insert.</p>"
+					},{
+						"title": "Back Cover and Spine",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/ds-resume-3.png",
+							"alt": "Sega Saturn themed resume back cover and spine"
+						},
+						"body": "<p>This is the back and spine graphics which wrap around the sides of the case. I used samples of my work for the \"screenshots\".</p>"
+					},{
+						"body": "<h2>For more info, check out my <a href=\"https://www.behance.net/gallery/1199679/DESIGN-Old-School-Resume-Case\" target=\"_blank\">Behance page</a> for this project.</h2>"
+					}
+				]
+			},{
+				"project_id": "boys-and-girls-club-promo-work",
+				"sides": [
+					{
+						"title": "<a href=\"https://www.behance.net/gallery/1286617/DESIGN-Boys-Girls-Club-Promotional-Work\" target=\"_blank\">Boys & Girls Club Promo Work</a>",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/ds-bngc-1.png",
+							"alt": "Boys & Girls Club promo materials"
+						},
+						"body": "<p>Various projects created to promote the local Boys & Girls Club. Mediums ranged from print posters and flyers, to t-shirts, to candy and gum wrappers.</p>"
+					},{
+						"img": {
+							"src": "//pixel-shredder.com/port/images/ds-bngc-2.png",
+							"alt": "Boys & Girls Club chocolate bar and gum wrappers"
+						},
+						"body": "<p>Left: Candy bar wrapper handed out to promote the after school rec program. Printed on glossy poster paper and individually rewrapped.<br>Right: Gum wrapper, part of the same media blitz. Printed on glossy poster paper and individually rewrapped.</p>"
+					},{
+						"img": {
+							"src": "//pixel-shredder.com/port/images/ds-bngc-3.png",
+							"alt": "Boys & Girls Club promotional poster and t-shirt"
+						},
+						"body": "<p>Left: Flyer made for a Rock Band 2 tournament being held at one of the middle schools.<br>Right: I designed these screen printed t-shirts to give out to our members, to get some brand recognition (I swear the quote was hilarious and relevant back in 2007).</p>"
+					},{
+						"body": "<h2>For more info, check out my <a href=\"https://www.behance.net/gallery/1286617/DESIGN-Boys-Girls-Club-Promotional-Work\" target=\"_blank\">Behance page</a> for this project.</h2>"
+					}
+				]
+			}
+		],
+		"dv": [
+			{
+				"project_id": "portfolio",
+				"sides": [
+					{
+						"title": "This Portfolio!",
+						"body": "<p>Based on <a href=\"https://paulrhayes.com/2010-09/3d-css-cube-ii-touch-gestures-click-and-drag/\" target=\"_blank\">an ingenious creation by Paul Hayes</a>.</p><p>Navigate using arrow keys, touchscreen, trackpad or mouse. Try giving the cubes a spin<span class=\"mobile-text\">, or rotating your device</span>!</p>"
+					},{
+						"title": "From the Original Documentation",
+						"body": "<p><a href=\"https://paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/\" target=\"_top\">Learn how to make a cube</a>.</p><p>&#8220;A 3D cube can be created solely in CSS, with all six faces.&#8221;</p><p>Here's an article <a href=\"https://paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/\" target=\"_top\">explaining the cubes</a>.</p><p>3D cubes use webkit-perspective and webkit-transform. Rotation via webkit-transition.</p>"
+					},{
+						"title": "My Own Contributions",
+						"body": "<p>I encapsulated all of <a href=\"https://github.com/fofr/paulrhayes.com-experiments/blob/master/cube-3d/js/touch.js\" target=\"_blank\">Hayes' javascript</a> into reusable functions, then iterated over them as needed in order to support multiple cubes onscreen.</p><p>I changed the y-axis behavior of the cubes from rotation to translation, to enable \"scrolling\" of the cube column. I also added scrollwheel support via a jQuery plugin, some rudimentary accessibility support, and a bit of ES6 syntax sugar. Finally, I made the entire project responsive</p>"
+					},{
+						"videoUrl": "https://www.youtube.com/v/8N_tupPBtWQ?fs=1&amp;hl=en_GB&amp;rel=0&amp;iv_load_policy=3&amp;start=4&amp;modestbranding=1&amp;showinfo=0"
+					}
+				]
+			},{
+				"project_id": "angular-cms-app",
+				"sides": [
+					{
+						"title": "Angular CMS app",
+						"body": "<p>Worked on a CMS app made in Angular, using Bootstrap with atomic design principles and in compliance with Section 508 accessibility standards.</p><p>Built several unique features including dockable modals, and spearheaded atomic design strategy with integrated style guide, components library, and visual regression testing suite.</p>"
+					},{
+						"title": "Architecture & Workflow",
+						"body": "<p>We began with Angular 1.6. As we built our app, we focused on creating reusable services and factories, and relying less on more restrictive controllers; we migrated to 2.0-compatible components later on.</p><p>Our front-end workflow included a self-imposed rule to add any new elements to our style guide and component library first, and using them for testing purposes and 508 compliance. Only afterwards did we add any new front-end code to the app itself. This kept our code agile in a very organic manner.</p>"
+					},{
+						"title": "Agile Process",
+						"body": "<p>Our team's agile development process was enhanced greatly by a company-sponsored event run by <a href=\"https://www.scrumalliance.org/community/profile/ldacy\" target=\"_blank\">Lance Dacy</a> (thanks, Lance!).</p><p>Tech debt sprints were integrated into our process, allowing our code to stay polished. We managed to avoid having any skeletons in our closet when it came time to show off our codebase. This was also crucial to maintaining our atomic design discipline.</p>"
+					},{
+						"title": "Atomic Design",
+						"body": "<p>In creating our UI/UX codebase, we were influenced greatly by <a href=\"http://bradfrost.com/blog/post/atomic-web-design/\" target=\"_blank\">atomic design</a> principles. We broke down every element into the smallest possible chunks of code, then built them back up as context-free as possible.</p><p>This technique allowed us to build a library of pieces we could reuse across the app to assemble our more complex components, while keeping our CSS small and maintainable. It also made testing for 508 compliance much easier, as most of the atomic parts' compliance scaled up into the larger components regardless of how we combined them.</p>"
+					}
+				]
+			},{
+				"project_id": "misc-work",
+				"sides": [
+					{
+						"title": "Misc. Work",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/dv-misc-1.png",
+							"alt": "Senior Care Facility Quality Tool"
+						},
+						"body": "<p>Development experience from 4+ years.<br>Above: Screenshot from a <a href=\"https://devpost.com/software/senior-care-facility-quality-tool\" target=\"_blank\">Senior Care Facility Quality Tool</a>, 3rd Prize winner of the <a href=\"https://dctechhack.devpost.com/\" target=\"_blank\">2013 DC Tech Hackathon Presented by Dun & Bradstreet</a>.</p>"
+					},{
+						"title": "Responsive Design Work",
+						"body": "<p>Designed various responsive emails with variable pixel-density image handling.</p><p>Designed a site for use in conjunction with Chromecast devices, intended for large-format viewing on TV screens.</p><p>Built a Flash app in Flex Builder that could dynamically scale its contents, using the same techniques applied by responsive websites.</p>"
+					},{
+						"title": "API Work",
+						"body": "<p>Various uses of social media APIs, including Twitter, Facebook, Pinterest, and LinkedIn.</p><p>Various uses of Google Maps API functionality for interactive data rendering.</p><p>Various uses of THOMAS and <a href=\"https://www.congress.gov/\" target=\"_blank\">congress.gov</a> API functionality.</p><p>Various uses of multimedia APIs, including Flickr and YouTube (see Manna Manna, above).</p>"
+					},{
+						"title": "I've Got Plenty of War Stories",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/dv-misc-4.png",
+							"alt": "Here's what I look like!"
+						},
+						"body": "<h2><a href=\"mailto:pixelSHREDDER@gmail.com\">Ask me about them!</a></h2>"
+					}
+				]
+			}
+		]
+	}
+}
