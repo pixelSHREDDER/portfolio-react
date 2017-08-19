@@ -1,0 +1,10 @@
+{
+	"name": "Portfolio React",
+	"type": "project",
+	"homepage": "http://www.pixel-shredder.com/port/dv.html",
+    "require": {
+        "components/jquery": "^3.2",
+		"newerton/jquery-mousewheel": "dev-master"
+    },
+    "minimum-stability": "dev"
+}

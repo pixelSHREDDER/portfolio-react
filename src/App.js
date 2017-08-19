@@ -1,19 +1,25 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
 import projectData from './data/projects.json';
-//import './App.css';
 
 function Cube(props) {
 	const sides = props.sides.map((side, i) =>
-		<div key={i} className="{side.videoUrl ? 'video'}">
+		<div key={i} className={side.videoUrl && 'video'}>
 		{side.title &&
-			<h2>{side.title}</h2>
+			<h2 dangerouslySetInnerHTML={ {__html: side.title} } />
 		}
 		{side.img &&
-			<img src="{side.img.src}" alt="{side.img.alt}" title="{side.img.alt}" />
+			<img src={side.img.src} alt={side.img.alt} title={side.img.alt} />
 		}
 		{side.body &&
-			<p>{side.body}</p>
+			<div dangerouslySetInnerHTML={ {__html: side.body} } />
+		}
+		{side.videoUrl &&
+			<object width="360" height="360">
+				<param name="movie" value={`${side.videoUrl}?fs=1&amp;hl=en_GB&amp;rel=0&amp;iv_load_policy=3&amp;start=4&amp;modestbranding=1&amp;showinfo=0`}></param>
+				<param name="allowFullScreen" value="true"></param>
+				<param name="allowscriptaccess" value="always"></param>
+				<embed src={`${side.videoUrl}?fs=1&amp;hl=en_GB&amp;rel=0&amp;iv_load_policy=3&amp;start=4&amp;modestbranding=1&amp;showinfo=0;`} type="application/x-shockwave-flash" allowFullScreen="true" width="360" height="360"></embed>
+			</object>
 		}
 		</div>
 	)
@@ -42,7 +48,8 @@ class App extends Component {
 	constructor() {
 		super();
 		this.state = {
-			projects: projectData
+			projects: projectData,
+			currentColumn: 'dv'
 		};
 	}
 
@@ -53,7 +60,7 @@ class App extends Component {
 	}
 
 	render() {
-	const column = this.loadColumn('dv');
+	const column = this.loadColumn(this.state.currentColumn);
 		return (
 			<div>
 				{column}

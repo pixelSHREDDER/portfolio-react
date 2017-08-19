@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+html {
+	touch-action: none;
+}
+body {
+	background-color: #ddf6ec;
+	background-image: url("../images/bg.png");
+	background-size: cover;
+	overflow: hidden;
+	font-family: 'Asap', sans-serif;
+	font-weight: 500;
+	margin: 0;
+}
+h2 {
+	margin-top: 0;
+}
+.wrapper {
+	/*position: absolute;
+	top: 125%;
+	right: 0;
+	left: 0;
+	touch-action: none;*/
+}
+/*.landscape_mode {
+	position: absolute;
+	right: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}*/
+.viewport {
+	-webkit-perspective: 800px;
+	/*-webkit-transform: scale(0.75,0.75);*/
+	-moz-perspective: 800px;
+	/*-moz-transform: scale(0.75,0.75);*/
+	perspective: 800px;
+	/*transform: scale(0.75,0.75);*/
+}
+.cube {
+	position: relative;
+	margin: 0 auto 100px;
+	height: 400px;
+	width: 400px;
+	-webkit-transition: -webkit-transform 100ms linear;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform: rotateY(0deg) translateY(0px);
+	-moz-transition: -moz-transform 100ms linear;
+	-moz-transform-style: preserve-3d;
+	-moz-transform: rotateY(0deg) translateY(0px);
+	transition: transform 100ms linear;
+	transform-style: preserve-3d;
+	transform: rotateY(0deg) translateY(0px);
+	opacity: 0;
+}
+.cube * {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.cube h2 {
+	color: #fff;
+	padding-top: 0;
+	margin-top: 0;
+}
+.cube a {
+	color: #fff;
+}
+.cube img {
+	width: 100%;
+	height: auto;
+}
+.cube img.tall {
+	width: auto;
+	height: 66%;
+}
+.cube > div {
+	position: absolute;
+	height: 360px;
+	width: 360px;
+	padding: 20px;
+	background-color: rgba(50, 50, 50, 0.85);
+	font-size: 1em;
+	text-align: center;
+	line-height: 1.6em;
+	color: #fff;
+	border: 1px solid #555;
+	border-radius: 3px;
+}
+.cube > div:first-child  {
+	-webkit-transform: rotateX(90deg) translateZ(200px);
+	-moz-transform: rotateX(90deg) translateZ(200px);
+	transform: rotateX(90deg) translateZ(200px);
+}
+.cube > div:nth-child(2) {
+	-webkit-transform: translateZ(200px);
+	-moz-transform: translateZ(200px);
+	transform: translateZ(200px);
+}
+.cube > div:nth-child(3) {
+	-webkit-transform: rotateY(90deg) translateZ(200px);
+	-moz-transform: rotateY(90deg) translateZ(200px);
+	transform: rotateY(90deg) translateZ(200px);
+	text-align: center;
+}
+.cube > div:nth-child(4) {
+	-webkit-transform: rotateY(180deg) translateZ(200px);
+	-moz-transform: rotateY(180deg) translateZ(200px);
+	transform: rotateY(180deg) translateZ(200px);
+}
+.cube > div:nth-child(5) {
+	-webkit-transform: rotateY(-90deg) translateZ(200px);
+	-moz-transform: rotateY(-90deg) translateZ(200px);
+	transform: rotateY(-90deg) translateZ(200px);
+}
+.cube > div:nth-child(6) {
+	-webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
+	-moz-transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
+	transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
+}
+object {
+	opacity: 0.5;
+}
+object:hover {
+	opacity: 1;
+}
+nav {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	z-index: 9999;
+	text-align: center;
+}
+.landscape_mode nav {
+	left: 3px;
+	text-align: left;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+}
+.landscape_mode nav li {
+	display: block;
+	width: 7%;
+	margin-bottom: 3px;
+}
+/*nav li:first-child {
+	margin-left: 25%;
+}
+nav li:last-child {
+	margin-right: 25%;
+}*/
+nav a {
+	display: table-cell;
+	vertical-align: middle;
+	/*width: 50%;*/
+	background: #7f2412;
+	color: #fff;
+	font-weight: 400;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+.landscape_mode nav a {
+	display: block;
+	width: 100%;
+	font-size: 0.8em;
+}
+nav .active,
+nav a:hover,
+nav a:active,
+nav a:focus {
+	background: #f44336;
+}
+nav span {
+	display: block;
+	font-size: 2em;
+	font-weight: 700;
+}
+.mobile-text {
+	display: none;
+}
+.landscape_mode .mobile-text,
+.portrait_mode .mobile-text {
+	display: inline;
+}
