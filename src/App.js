@@ -8,7 +8,7 @@ function Cube(props) {
 			<h2 dangerouslySetInnerHTML={ {__html: side.title} } />
 		}
 		{side.img &&
-			<img src={side.img.src} alt={side.img.alt} title={side.img.alt} />
+			<img className={side.img.tall && 'tall'} src={side.img.src} alt={side.img.alt} title={side.img.alt} />
 		}
 		{side.body &&
 			<div dangerouslySetInnerHTML={ {__html: side.body} } />
@@ -51,19 +51,50 @@ class App extends Component {
 			projects: projectData,
 			currentColumn: 'dv'
 		};
+		this.updateColumn = this.updateColumn.bind(this);
 	}
 
-	loadColumn(column) {
+	updateColumn(column) {
+		this.setState(prevState => ({
+			currentColumn: column
+		}));
+	}
+
+	loadColumn() {
 		return (
-			<Column cubes={this.state.projects.categories[column]} />
+			<Column cubes={this.state.projects.categories[this.state.currentColumn]} />
+		);
+	}
+
+	loadNavs() {
+		return (
+			<nav>
+				<ul>
+					<li>
+						<a href="/">Home</a>
+					</li>
+					<br />
+					<li>
+						<a className={this.state.currentColumn === 'ds' && 'active'} onClick={() => this.updateColumn('ds')}><span role="presentation">Ds</span>Design</a>
+					</li>
+					<li>
+						<a className={this.state.currentColumn === 'dv' && 'active'} onClick={() => this.updateColumn('dv')}><span role="presentation">Dv</span>Develop</a>
+					</li>
+					<li>
+						<a className={this.state.currentColumn === 'cr' && 'active'} onClick={() => this.updateColumn('cr')}><span role="presentation">Cr</span>Create</a>
+					</li>
+				</ul>
+			</nav>
 		);
 	}
 
 	render() {
-	const column = this.loadColumn(this.state.currentColumn);
+		const column = this.loadColumn();
+		const navs = this.loadNavs();
 		return (
 			<div>
 				{column}
+				{navs}
 			</div>
 		);
 	}

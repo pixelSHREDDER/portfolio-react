@@ -59,7 +59,8 @@
 						"title": "<a href=\"https://www.behance.net/gallery/777117/DESIGN-Sega-Saturn-Skateboard-Deck\" target=\"_blank\">Custom Skateboard Deck</a>",
 						"img": {
 							"src": "//pixel-shredder.com/port/images/cr-saturndeck-1.gif",
-							"alt": "Custom skateboard deck animation"
+							"alt": "Custom skateboard deck animation",
+							"tall": true
 						},
 						"body": "<p>Skateboard deck with custom-designed art, applied on the top side under clear grip tape.</p>"
 					},{
