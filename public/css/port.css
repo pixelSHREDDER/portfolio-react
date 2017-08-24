@@ -14,29 +14,10 @@ body {
 h2 {
 	margin-top: 0;
 }
-.wrapper {
-	/*position: absolute;
-	top: 125%;
-	right: 0;
-	left: 0;
-	touch-action: none;*/
-}
-/*.landscape_mode {
-	position: absolute;
-	right: 0;
-	-webkit-transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	transform: rotate(90deg);
-}*/
 .viewport {
 	-webkit-perspective: 800px;
-	/*-webkit-transform: scale(0.75,0.75);*/
 	-moz-perspective: 800px;
-	/*-moz-transform: scale(0.75,0.75);*/
 	perspective: 800px;
-	/*transform: scale(0.75,0.75);*/
 }
 .cube {
 	position: relative;
@@ -150,16 +131,9 @@ nav li {
 	width: 7%;
 	margin-bottom: 3px;
 }
-/*nav li:first-child {
-	margin-left: 25%;
-}
-nav li:last-child {
-	margin-right: 25%;
-}*/
 nav a {
 	display: table-cell;
 	vertical-align: middle;
-	/*width: 50%;*/
 	background: #7f2412;
 	color: #fff;
 	font-weight: 400;
@@ -188,4 +162,25 @@ nav span {
 .landscape_mode .mobile-text,
 .portrait_mode .mobile-text {
 	display: inline;
+}
+.navs-appear {
+  opacity: 0.01;
+}
+.navs-appear.navs-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+.navs-enter {
+  opacity: 0.01;
+}
+.navs-enter.navs-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.navs-leave {
+  opacity: 1;
+}
+.navs-leave.navs-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
 }

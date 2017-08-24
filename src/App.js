@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { CSSTransitionGroup } from 'react-transition-group';
 import projectData from './data/projects.json';
 
 function Cube(props) {
@@ -24,7 +25,7 @@ function Cube(props) {
 		</div>
 	)
 	return (
-		<article id="cube.project.project_id" className="viewport">
+		<article id={props.project_id} className="viewport">
 			<section className="cube">
 				<div></div>
 				{sides}
@@ -94,7 +95,14 @@ class App extends Component {
 		return (
 			<div>
 				{column}
-				{navs}
+				<CSSTransitionGroup
+					transitionName="navs"
+					transitionAppear={true}
+					transitionAppearTimeout={500}
+					transitionEnterTimeout={500}
+					transitionLeaveTimeout={300}>
+					{navs}
+				</CSSTransitionGroup>
 			</div>
 		);
 	}
