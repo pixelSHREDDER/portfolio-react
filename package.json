@@ -1,6 +1,6 @@
 {
   "name": "port-react",
-  "homepage": "http://www.pixel-shredder.com/port/",
+  "homepage": "http://www.pixel-shredder.com/port",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
