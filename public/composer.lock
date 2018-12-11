@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a2de1d6e400ec4728282f8bc313c11d",
+    "hash": "007d4e053da9538e7aa87e7db8bb587e",
+    "content-hash": "91827987b2d0864bde6cae2c9290daa7",
     "packages": [
         {
             "name": "components/jquery",
@@ -46,7 +47,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2017-03-21T07:01:49+00:00"
+            "time": "2017-03-21 07:01:49"
         },
         {
             "name": "newerton/jquery-mousewheel",
@@ -82,12 +83,12 @@
                 "mousewheel",
                 "wheel"
             ],
-            "time": "2015-05-07T14:16:29+00:00"
+            "time": "2015-05-07 14:16:29"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
         "newerton/jquery-mousewheel": 20
     },

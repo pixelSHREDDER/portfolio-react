@@ -238,7 +238,7 @@ $(function() {
 		});
 	}).on('mousewheel', function(e) {
 		keyboardMoveCubes({dir: ((e.deltaY > 0) ? 38 : 40), dist: (e.deltaFactor * 20)});
+	}).ready(function() {
+		init();
 	});
-
-	init();
 });
