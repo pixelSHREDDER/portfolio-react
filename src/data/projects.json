@@ -198,11 +198,7 @@
 				"sides": [
 					{
 						"title": "Misc. Work",
-						"img": {
-							"src": "//pixel-shredder.com/port/images/dv-misc-1.png",
-							"alt": "Senior Care Facility Quality Tool"
-						},
-						"body": "<p>Development experience from 4+ years.<br>Above: Screenshot from a <a href=\"https://devpost.com/software/senior-care-facility-quality-tool\" target=\"_blank\">Senior Care Facility Quality Tool</a>, 3rd Prize winner of the <a href=\"https://dctechhack.devpost.com/\" target=\"_blank\">2013 DC Tech Hackathon Presented by Dun & Bradstreet</a>.</p>"
+						"body": "<p>Development experience from 6+ years.</p><p>Ongoing Redesign of the <a href=\"https://ydwa.org/\" target=\"_blank\">Young Democrats of Washington State's website</a> and <a href=\"https://snocoyd.org/\" target=\"_blank\">chapter websites</a>, in service as Tech Director</p><p><a href=\"https://devpost.com/software/senior-care-facility-quality-tool\" target=\"_blank\">Senior Care Facility Quality Tool</a>, 3rd Prize winner of the <a href=\"https://dctechhack.devpost.com/\" target=\"_blank\">2013 DC Tech Hackathon Presented by Dun & Bradstreet</a>.</p>"
 					},{
 						"title": "Responsive Design Work",
 						"body": "<p>Designed various responsive emails with variable pixel-density image handling.</p><p>Designed a site for use in conjunction with Chromecast devices, intended for large-format viewing on TV screens.</p><p>Built a Flash app in Flex Builder that could dynamically scale its contents, using the same techniques applied by responsive websites.</p>"
