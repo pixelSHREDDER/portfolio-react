@@ -12,7 +12,7 @@
 						},
 						"body": "<p>A 360-degree audio-visual interactive experience, incorporating motion controls with Kinect to allow for free motion.</p>"
 					},{
-						"videoUrl": "https://www.youtube.com/v/KeAzs4laMsk?fs=1&amp;hl=en_GB&amp;rel=0&amp;modestbranding=1&amp;showinfo=0"
+						"videoUrl": "https://www.youtube.com/embed/KeAzs4laMsk"
 					},{
 						"title": "Nuts and Bolts",
 						"body": "<p>We created an installation which combines a physical cylindrical screen made of plastic piping and stretchable fabric, and four short-throw projectors with image stitching software applied to create the display solution.</p><p>We also incorporated 5.1 surround sound speakers and Kinect-based motion controls to control movement. We developed software in Unity and designed it to be experienced exclusively on the Odyssey platform.</p>"
@@ -64,7 +64,7 @@
 						},
 						"body": "<p>Skateboard deck with custom-designed art, applied on the top side under clear grip tape.</p>"
 					},{
-						"videoUrl": "https://www.youtube.com/v/R85yQqn2gcw?fs=1&amp;hl=en_GB&amp;rel=0&amp;modestbranding=1&amp;showinfo=0"
+						"videoUrl": "https://www.youtube.com/embed/R85yQqn2gcw"
 					},{
 						"title": "The Artwork",
 						"img": {
@@ -173,7 +173,7 @@
 						"title": "My Own Contributions",
 						"body": "<p>I encapsulated all of <a href=\"https://github.com/fofr/paulrhayes.com-experiments/blob/master/cube-3d/js/touch.js\" target=\"_blank\">Hayes' javascript</a> into reusable functions, then iterated over them as needed in order to support multiple cubes onscreen.</p><p>I changed the y-axis behavior of the cubes from rotation to translation, to enable \"scrolling\" of the cube column. I also added scrollwheel support via a jQuery plugin, some rudimentary accessibility support, and a bit of ES6 syntax sugar. Finally, I made the entire project responsive</p>"
 					},{
-						"videoUrl": "https://www.youtube.com/v/8N_tupPBtWQ?fs=1&amp;hl=en_GB&amp;rel=0&amp;iv_load_policy=3&amp;start=4&amp;modestbranding=1&amp;showinfo=0"
+						"videoUrl": "https://www.youtube.com/embed/8N_tupPBtWQ"
 					}
 				]
 			},{

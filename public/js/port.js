@@ -57,6 +57,13 @@ $(function() {
 		};
 
 		animateIn();
+
+		$('iframe').load(function() {
+			$(this).contents().on('mouseup touchend', function() {
+				alert('Click detected inside iframe.');
+				$(document).unbind('mousemove touchmove');
+			});
+		});
 	};
 
 	function support(props = []) {

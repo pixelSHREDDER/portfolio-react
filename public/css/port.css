@@ -10,9 +10,35 @@ body {
 	font-family: 'Asap', sans-serif;
 	font-weight: 500;
 	margin: 0;
+	color: #fff;
+}
+a {
+	color: #fff;
+}
+h1 {
+	display: inline-block;
+	font-weight: 400;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 h2 {
 	margin-top: 0;
+}
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	height: 80px;
+	z-index: 9999;
+	background: #7f2412;
+	text-align: center;
+	opacity: 0.90;
+}
+header > div {
+	display: inline-block;
+}
+.wrapper {
+	margin-top: 120px;
 }
 .viewport {
 	-webkit-perspective: 800px;
@@ -42,12 +68,8 @@ h2 {
 	user-select: none;
 }
 .cube h2 {
-	color: #fff;
 	padding-top: 0;
 	margin-top: 0;
-}
-.cube a {
-	color: #fff;
 }
 .cube img {
 	width: 100%;
@@ -66,7 +88,6 @@ h2 {
 	font-size: 1em;
 	text-align: center;
 	line-height: 1.6em;
-	color: #fff;
 	border: 1px solid #555;
 	border-radius: 3px;
 }
@@ -101,10 +122,11 @@ h2 {
 	-moz-transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
 	transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
 }
-object {
+iframe {
 	opacity: 0.5;
+	border: none;
 }
-object:hover {
+iframe:hover {
 	opacity: 1;
 }
 nav {
@@ -135,7 +157,6 @@ nav a {
 	display: table-cell;
 	vertical-align: middle;
 	background: #7f2412;
-	color: #fff;
 	font-weight: 400;
 	text-decoration: none;
 	padding: 10px 20px;
@@ -163,6 +184,27 @@ nav span {
 .portrait_mode .mobile-text {
 	display: inline;
 }
+.header-appear {
+	opacity: 0.01;
+  }
+  .header-appear.header-appear-active {
+	opacity: 1;
+	transition: opacity .5s ease-in;
+  }
+  .header-enter {
+	opacity: 0.01;
+  }
+  .header-enter.header-enter-active {
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+  }
+  .header-leave {
+	opacity: 1;
+  }
+  .header-leave.header-leave-active {
+	opacity: 0.01;
+	transition: opacity 300ms ease-in;
+  }
 .navs-appear {
   opacity: 0.01;
 }
@@ -183,4 +225,24 @@ nav span {
 .navs-leave.navs-leave-active {
   opacity: 0.01;
   transition: opacity 300ms ease-in;
+}
+
+@media (max-width: 640px) {
+	h1 {
+		width: 76%;
+		margin: 0;
+	}
+	header {
+		padding-top: 0.3em;
+	}
+	header > div {
+		float: left;
+		width: 12%;
+	}
+	header > div:last-child {
+		float: right;
+	}
+	header > div > div {
+		display: inline-block !important;
+	}
 }

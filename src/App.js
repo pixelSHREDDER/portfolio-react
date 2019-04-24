@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { CSSTransitionGroup } from 'react-transition-group';
 import projectData from './data/projects.json';
+import SocialMediaIcons from 'react-social-media-icons';
 
 function Cube(props) {
 	const sides = props.sides.map((side, i) =>
@@ -15,12 +16,7 @@ function Cube(props) {
 			<div dangerouslySetInnerHTML={ {__html: side.body} } />
 		}
 		{side.videoUrl &&
-			<object width="360" height="360">
-				<param name="movie" value={`${side.videoUrl}?fs=1&amp;hl=en_GB&amp;rel=0&amp;iv_load_policy=3&amp;start=4&amp;modestbranding=1&amp;showinfo=0`}></param>
-				<param name="allowFullScreen" value="true"></param>
-				<param name="allowscriptaccess" value="always"></param>
-				<embed src={`${side.videoUrl}?fs=1&amp;hl=en_GB&amp;rel=0&amp;iv_load_policy=3&amp;start=4&amp;modestbranding=1&amp;showinfo=0;`} type="application/x-shockwave-flash" allowFullScreen="true" width="360" height="360"></embed>
-			</object>
+			<iframe width="360" height="360" title={side.title} src={`${side.videoUrl}?controls=0&enablejsapi=1&fs=0&modestbranding=1&origin=https://pixel-shredder.com`} />
 		}
 		</div>
 	)
@@ -50,9 +46,51 @@ class App extends Component {
 		super();
 		this.state = {
 			projects: projectData,
-			currentColumn: 'dv'
+			currentColumn: 'dv',
+			socialMediaIconsLeft: [
+				{
+				  url: 'https://www.facebook.com/Mike.O.DeVine',
+				  className: 'fa-facebook',
+				},
+				{
+					url: 'https://twitter.com/pixelSHREDDER',
+					className: 'fa-twitter-square',
+				},
+			],
+			socialMediaIconsRight: [
+				{
+				  url: 'https://github.com/pixelSHREDDER',
+				  className: 'fa-github-square',
+				},
+				{
+				  url: 'https://www.linkedin.com/in/pixelshredder/',
+				  className: 'fa-linkedin',
+				},
+			],
 		};
 		this.updateColumn = this.updateColumn.bind(this);
+	}
+
+	loadHeader() {
+		return (
+			<header>
+				<div>
+					<SocialMediaIcons
+						icons={this.state.socialMediaIconsLeft}
+						iconSize={'1.3em'}
+						iconColor={'#fff'}
+					/>
+				</div>
+				<h1>Mike DeVine's Online Portfolio</h1>
+				<div>
+					<SocialMediaIcons
+						icons={this.state.socialMediaIconsRight}
+						iconSize={'1.3em'}
+						iconColor={'#fff'}
+					/>
+				</div>
+			</header>
+		);
 	}
 
 	updateColumn(column) {
@@ -90,10 +128,20 @@ class App extends Component {
 	}
 
 	render() {
+		const header = this.loadHeader();
 		const column = this.loadColumn();
 		const navs = this.loadNavs();
+
 		return (
 			<div>
+				<CSSTransitionGroup
+					transitionName="header"
+					transitionAppear={true}
+					transitionAppearTimeout={500}
+					transitionEnterTimeout={500}
+					transitionLeaveTimeout={300}>
+					{header}
+				</CSSTransitionGroup>
 				{column}
 				<CSSTransitionGroup
 					transitionName="navs"
