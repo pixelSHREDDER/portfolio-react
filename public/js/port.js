@@ -58,12 +58,14 @@ $(function() {
 
 		animateIn();
 
-		$('iframe').load(function() {
-			$(this).contents().on('mouseup touchend', function() {
-				alert('Click detected inside iframe.');
+		/*$('iframe').on('load', function(e) {
+		//$('iframe').load(function() {
+			//$(this).contents().on('mouseup touchend', function() {	
+			$(e.target).contents().on('mouseup touchend', function() {
+				console.log('Click detected inside iframe.');
 				$(document).unbind('mousemove touchmove');
 			});
-		});
+		});*/
 	};
 
 	function support(props = []) {
@@ -234,7 +236,7 @@ $(function() {
 
 		$(document).bind('mousemove touchmove', function(event) {
 			// Only perform rotation if one touch or mouse (e.g. still scale with pinch and zoom)
-			if(!hasTouch || !(event.originalEvent && event.originalEvent.touches.length > 1)) {
+			if(!hasTouch || !(event.originalEvent && event.originalEvent.touches && (event.originalEvent.touches.length > 1))) {
 				event.preventDefault();
 				// Get touch co-ords
 				event.originalEvent.touches ? event = event.originalEvent.touches[0] : null;
@@ -244,7 +246,7 @@ $(function() {
 			$(document).unbind('mousemove touchmove');
 		});
 	}).on('mousewheel', function(e) {
-		keyboardMoveCubes({dir: ((e.deltaY > 0) ? 38 : 40), dist: (e.deltaFactor * 20)});
+		keyboardMoveCubes({dir: ((e.deltaY > 0) ? 38 : 40), dist: (e.deltaFactor * 8)});
 	}).ready(function() {
 		init();
 	});

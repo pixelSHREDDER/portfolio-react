@@ -161,22 +161,6 @@
 		],
 		"dv": [
 			{
-				"project_id": "portfolio",
-				"sides": [
-					{
-						"title": "This Portfolio!",
-						"body": "<p>Based on <a href=\"https://paulrhayes.com/2010-09/3d-css-cube-ii-touch-gestures-click-and-drag/\" target=\"_blank\">an ingenious creation by Paul Hayes</a>.</p><p>Navigate using arrow keys, touchscreen, trackpad or mouse. Try giving the cubes a spin<span class=\"mobile-text\">, or rotating your device</span>!</p><p>UPDATE: I've converted this project into a React app! Technically a hybrid with jQuery, though I'll be weaning it off as I have time. The React allows for single-page app functionality, and sits apart from the jQuery.</p><p>Check out the React repo <a href=\"https://github.com/pixelSHREDDER/portfolio-react\" target=\"_blank\">here</a>, and the original project <a href=\"https://github.com/pixelSHREDDER/portfolio\" target=\"_blank\">here</a>.</p>"
-					},{
-						"title": "From the Original Documentation",
-						"body": "<p><a href=\"https://paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/\" target=\"_blank\">Learn how to make a cube</a>.</p><p>&#8220;A 3D cube can be created solely in CSS, with all six faces.&#8221;</p><p>Here's an article <a href=\"https://paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/\" target=\"_blank\">explaining the cubes</a>.</p><p>3D cubes use webkit-perspective and webkit-transform. Rotation via webkit-transition.</p>"
-					},{
-						"title": "My Own Contributions",
-						"body": "<p>I encapsulated all of <a href=\"https://github.com/fofr/paulrhayes.com-experiments/blob/master/cube-3d/js/touch.js\" target=\"_blank\">Hayes' javascript</a> into reusable functions, then iterated over them as needed in order to support multiple cubes onscreen.</p><p>I changed the y-axis behavior of the cubes from rotation to translation, to enable \"scrolling\" of the cube column. I also added scrollwheel support via a jQuery plugin, some rudimentary accessibility support, and a bit of ES6 syntax sugar. Finally, I made the entire project responsive</p>"
-					},{
-						"videoUrl": "https://www.youtube.com/embed/8N_tupPBtWQ"
-					}
-				]
-			},{
 				"project_id": "angular-cms-app",
 				"sides": [
 					{
@@ -194,11 +178,27 @@
 					}
 				]
 			},{
+				"project_id": "portfolio",
+				"sides": [
+					{
+						"title": "This Portfolio!",
+						"body": "<p>Based on <a href=\"https://paulrhayes.com/2010-09/3d-css-cube-ii-touch-gestures-click-and-drag/\" target=\"_blank\">an ingenious creation by Paul Hayes</a>.</p><p>Navigate using arrow keys, touchscreen, trackpad or mouse. Try giving the cubes a spin<span class=\"mobile-text\">, or rotating your device</span>!</p><p>UPDATE: I've converted this project into a React app! Technically a hybrid with jQuery, though I'll be weaning it off as I have time. The React allows for single-page app functionality, and sits apart from the jQuery.</p><p>Check out the React repo <a href=\"https://github.com/pixelSHREDDER/portfolio-react\" target=\"_blank\">here</a>, and the original project <a href=\"https://github.com/pixelSHREDDER/portfolio\" target=\"_blank\">here</a>.</p>"
+					},{
+						"title": "From the Original Documentation",
+						"body": "<p><a href=\"https://paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/\" target=\"_blank\">Learn how to make a cube</a>.</p><p>&#8220;A 3D cube can be created solely in CSS, with all six faces.&#8221;</p><p>Here's an article <a href=\"https://paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/\" target=\"_blank\">explaining the cubes</a>.</p><p>3D cubes use webkit-perspective and webkit-transform. Rotation via webkit-transition.</p>"
+					},{
+						"title": "My Own Contributions",
+						"body": "<p>I encapsulated all of <a href=\"https://github.com/fofr/paulrhayes.com-experiments/blob/master/cube-3d/js/touch.js\" target=\"_blank\">Hayes' javascript</a> into reusable functions, then iterated over them as needed in order to support multiple cubes onscreen.</p><p>I changed the y-axis behavior of the cubes from rotation to translation, to enable \"scrolling\" of the cube column. I also added scrollwheel support via a jQuery plugin, some rudimentary accessibility support, and a bit of ES6 syntax sugar. Finally, I made the entire project responsive</p>"
+					},{
+						"videoUrl": "https://www.youtube.com/embed/8N_tupPBtWQ"
+					}
+				]
+			},{
 				"project_id": "misc-work",
 				"sides": [
 					{
 						"title": "Misc. Work",
-						"body": "<p>Development experience from 6+ years.</p><p>Ongoing Redesign of the <a href=\"https://ydwa.org/\" target=\"_blank\">Young Democrats of Washington State's website</a> and <a href=\"https://snocoyd.org/\" target=\"_blank\">chapter websites</a>, in service as Tech Director</p><p><a href=\"https://devpost.com/software/senior-care-facility-quality-tool\" target=\"_blank\">Senior Care Facility Quality Tool</a>, 3rd Prize winner of the <a href=\"https://dctechhack.devpost.com/\" target=\"_blank\">2013 DC Tech Hackathon Presented by Dun & Bradstreet</a>.</p>"
+						"body": "<p>Development experience from 6+ years.</p><p>Ongoing Redesign of the <a href=\"https://ydwa.org/\" target=\"_blank\">Young Democrats of Washington State's website</a> and <a href=\"https://snocoyd.org/\" target=\"_blank\">chapter websites</a>, in service as VP of Operations/Tech Director</p><p><a href=\"https://devpost.com/software/senior-care-facility-quality-tool\" target=\"_blank\">Senior Care Facility Quality Tool</a>, 3rd Prize winner of the <a href=\"https://dctechhack.devpost.com/\" target=\"_blank\">2013 DC Tech Hackathon Presented by Dun & Bradstreet</a>.</p>"
 					},{
 						"title": "Responsive Design Work",
 						"body": "<p>Designed various responsive emails with variable pixel-density image handling.</p><p>Designed a site for use in conjunction with Chromecast devices, intended for large-format viewing on TV screens.</p><p>Built a Flash app in Flex Builder that could dynamically scale its contents, using the same techniques applied by responsive websites.</p>"
