@@ -8,16 +8,16 @@ $(function() {
 	var transformProp = support(transformProps);
 	var perspectiveProps = 'perspective webkitPerspective'.split(' ');
 	var perspectiveProp = support(perspectiveProps);
-	var transitionDuration = 'transitionDuration WebkitTransitionDuration MozTransitionDuration OTransitionDuration msTransitionDuration'.split(' ');
-	var transitionDurationProp = support(transitionDuration);
+	//var transitionDuration = 'transitionDuration WebkitTransitionDuration MozTransitionDuration OTransitionDuration msTransitionDuration'.split(' ');
+	//var transitionDurationProp = support(transitionDuration);
 	var activeCube = -1;
 	var mouse = {
 		start: {}
 	};
 	var widthDiff = (800 - $(window).width());
 	var $wrapper = $('.wrapper')[0];
-	var $nav = $('nav')[0];
-	var navHeight = $('nav').eq(0).height();
+	//var $nav = $('nav')[0];
+	//var navHeight = $('nav').eq(0).height();
 	var $cubes = $('.cube');
 	var cubeHeight = $('.cube').eq(0).height();
 	var $viewports = $('.viewport');
@@ -34,10 +34,10 @@ $(function() {
 		}
 
 		move(coords) {
-			this.x = ((coords && (typeof coords.x === 'number')) ? coords.x : this.x);
+			/*this.x = ((coords && (typeof coords.x === 'number')) ? coords.x : this.x);
 			this.y = ((coords && (typeof coords.y === 'number')) ? coords.y : this.y);
 			this.cube.style[transformProp] = `rotateX(-${((18 * (this.index + 1)) * 0.25)}deg) rotateY(${this.y}deg) translateY(${this.x}px)`;
-			this.el.style[perspectiveProp] = `${(((cubeHeight * 2) * (this.index + 1)) * 1.50)}px`;
+			this.el.style[perspectiveProp] = `${(((cubeHeight * 2) * (this.index + 1)) * 1.50)}px`;*/
 		}
 	};
 
