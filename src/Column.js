@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import ReactScrollWheelHandler from 'react-scroll-wheel-handler';
 import Cube from './Cube';
 
 class Column extends Component {
@@ -51,10 +52,10 @@ class Column extends Component {
 	getScale = () => (((800 - window.width) > 0) ? ((100 - ((800 - window.width) / 10)) / 100) : 1.0) * ((this.props.mobile && this.state.landscape) ? 0.6 : 1.0);
 
     handleScroll = e => {
-		console.log(e.target.offsetTop);
-		const { cubes } = this.props;
-		//const { cubeStyles } = this.state;
-		/*let cubeStyles = { ...cubes.map((i) => {
+		console.log(e);
+		/*const { cubes } = this.props;
+		const { cubeStyles } = this.state;
+		let cubeStyles = { ...cubes.map((i) => {
 			return {
 				transform: `rotateX(-${((18 * (i + 1)) * 0.25)}deg) rotateY(${Math.min(0, e.target.srcElement.body.scrollTop / 3 - 60)}deg) translateY(${0}px)`,
 				perspective: `${(((document.getElementById(`cube_${i}`).clientHeight * 2) * (i + 1)) * 1.50)}px`,
@@ -71,9 +72,11 @@ class Column extends Component {
 		const { cubeStyles, styles } = this.state;
 
 		return (
-			<div className="wrapper" id="wrapper" style={styles} onWheel = {(e) => this.handleScroll(e)}>
-				{cubes.map((cube, i) => <Cube key={i} id={i} coords={{x: 0, y: 0}} data={cube} styles={cubeStyles[i]} />)}
-			</div>
+			<ReactScrollWheelHandler upHandler={(e) => this.handleScroll(e)} downHandler={(e) => this.handleScroll(e)}>
+				<div className="wrapper" id="wrapper" style={styles}>
+					{cubes.map((cube, i) => <Cube key={i} id={i} coords={{x: 0, y: 0}} data={cube} styles={cubeStyles[i]} />)}
+				</div>
+			</ReactScrollWheelHandler>
 		)
 	};
 };

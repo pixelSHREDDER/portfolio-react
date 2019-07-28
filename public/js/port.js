@@ -34,10 +34,10 @@ $(function() {
 		}
 
 		move(coords) {
-			/*this.x = ((coords && (typeof coords.x === 'number')) ? coords.x : this.x);
+			this.x = ((coords && (typeof coords.x === 'number')) ? coords.x : this.x);
 			this.y = ((coords && (typeof coords.y === 'number')) ? coords.y : this.y);
 			this.cube.style[transformProp] = `rotateX(-${((18 * (this.index + 1)) * 0.25)}deg) rotateY(${this.y}deg) translateY(${this.x}px)`;
-			this.el.style[perspectiveProp] = `${(((cubeHeight * 2) * (this.index + 1)) * 1.50)}px`;*/
+			this.el.style[perspectiveProp] = `${(((cubeHeight * 2) * (this.index + 1)) * 1.50)}px`;
 		}
 	};
 
