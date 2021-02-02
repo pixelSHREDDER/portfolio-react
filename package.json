@@ -7,7 +7,7 @@
     "json-loader": "^0.5.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^4.0.1",
     "react-scroll-wheel-handler": "^1.0.9",
     "react-social-media-icons": "^1.1.0"
   },
