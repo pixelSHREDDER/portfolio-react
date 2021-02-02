@@ -80,6 +80,32 @@
 		],
 		"ds": [
 			{
+				"project_id": "boys-and-girls-club-promo-work",
+				"sides": [
+					{
+						"title": "<a href=\"https://www.behance.net/gallery/1286617/DESIGN-Boys-Girls-Club-Promotional-Work\" target=\"_blank\">Boys & Girls Club Promo Work</a>",
+						"img": {
+							"src": "//pixel-shredder.com/port/images/ds-bngc-1.png",
+							"alt": "Boys & Girls Club promo materials"
+						},
+						"body": "<p>Various projects created to promote the local Boys & Girls Club. Mediums ranged from print posters and flyers, to t-shirts, to candy and gum wrappers.</p>"
+					},{
+						"img": {
+							"src": "//pixel-shredder.com/port/images/ds-bngc-2.png",
+							"alt": "Boys & Girls Club chocolate bar and gum wrappers"
+						},
+						"body": "<p>Left: Candy bar wrapper handed out to promote the after school rec program. Printed on glossy poster paper and individually rewrapped.<br>Right: Gum wrapper, part of the same media blitz. Printed on glossy poster paper and individually rewrapped.</p>"
+					},{
+						"img": {
+							"src": "//pixel-shredder.com/port/images/ds-bngc-3.png",
+							"alt": "Boys & Girls Club promotional poster and t-shirt"
+						},
+						"body": "<p>Left: Flyer made for a Rock Band 2 tournament being held at one of the middle schools.<br>Right: I designed these screen printed t-shirts to give out to our members, to get some brand recognition (I swear the quote was hilarious and relevant back in 2007).</p>"
+					},{
+						"body": "<h2>For more info, check out my <a href=\"https://www.behance.net/gallery/1286617/DESIGN-Boys-Girls-Club-Promotional-Work\" target=\"_blank\">Behance page</a> for this project.</h2>"
+					}
+				]
+			},{
 				"project_id": "paper-airplane-business-cards",
 				"sides": [
 					{
@@ -131,50 +157,23 @@
 						"body": "<h2>For more info, check out my <a href=\"https://www.behance.net/gallery/1199679/DESIGN-Old-School-Resume-Case\" target=\"_blank\">Behance page</a> for this project.</h2>"
 					}
 				]
-			},{
-				"project_id": "boys-and-girls-club-promo-work",
-				"sides": [
-					{
-						"title": "<a href=\"https://www.behance.net/gallery/1286617/DESIGN-Boys-Girls-Club-Promotional-Work\" target=\"_blank\">Boys & Girls Club Promo Work</a>",
-						"img": {
-							"src": "//pixel-shredder.com/port/images/ds-bngc-1.png",
-							"alt": "Boys & Girls Club promo materials"
-						},
-						"body": "<p>Various projects created to promote the local Boys & Girls Club. Mediums ranged from print posters and flyers, to t-shirts, to candy and gum wrappers.</p>"
-					},{
-						"img": {
-							"src": "//pixel-shredder.com/port/images/ds-bngc-2.png",
-							"alt": "Boys & Girls Club chocolate bar and gum wrappers"
-						},
-						"body": "<p>Left: Candy bar wrapper handed out to promote the after school rec program. Printed on glossy poster paper and individually rewrapped.<br>Right: Gum wrapper, part of the same media blitz. Printed on glossy poster paper and individually rewrapped.</p>"
-					},{
-						"img": {
-							"src": "//pixel-shredder.com/port/images/ds-bngc-3.png",
-							"alt": "Boys & Girls Club promotional poster and t-shirt"
-						},
-						"body": "<p>Left: Flyer made for a Rock Band 2 tournament being held at one of the middle schools.<br>Right: I designed these screen printed t-shirts to give out to our members, to get some brand recognition (I swear the quote was hilarious and relevant back in 2007).</p>"
-					},{
-						"body": "<h2>For more info, check out my <a href=\"https://www.behance.net/gallery/1286617/DESIGN-Boys-Girls-Club-Promotional-Work\" target=\"_blank\">Behance page</a> for this project.</h2>"
-					}
-				]
 			}
 		],
 		"dv": [
 			{
-				"project_id": "angular-cms-app",
+				"project_id": "react-cms-app",
 				"sides": [
 					{
-						"title": "Angular CMS app",
-						"body": "<p>Worked on a CMS app made in Angular, using Bootstrap with atomic design principles and in compliance with Section 508 accessibility standards.</p><p>Built several unique features including dockable modals, and spearheaded atomic design strategy with integrated style guide, components library, and visual regression testing suite.</p>"
+						"title": "React Dashboard App",
+						"body": "<p>Ongoing personal project built on a MERN + Redux stack. App is a dashboard and onboarding tool for clients of a fictional freelance agency.</p>"
 					},{
-						"title": "Architecture & Workflow",
-						"body": "<p>We began with Angular 1.6. As we built our app, we focused on creating reusable services and factories, and relying less on more restrictive controllers; we migrated to 2.0-compatible components later on.</p><p>Our front-end workflow included a self-imposed rule to add any new elements to our style guide and component library first, and using them for testing purposes and 508 compliance. Only afterwards did we add any new front-end code to the app itself. This kept our code agile in a very organic manner.</p>"
+						"title": "Current Features",
+						"body": "<ul><li>JWT tokenization and authorization via Auth0 with WordPress integration</li><li>Data modeling and validation via Mongoose and PropTypes</li><li>Custom hooks</li><li>E2E testing via Cypress</li><li>UI built with Google's Material-UI</li></ul>"
 					},{
-						"title": "Agile Process",
-						"body": "<p>Our team's agile development process was enhanced greatly by a company-sponsored event run by <a href=\"https://www.scrumalliance.org/community/profile/ldacy\" target=\"_blank\">Lance Dacy</a> (thanks, Lance!).</p><p>Tech debt sprints were integrated into our process, allowing our code to stay polished. We managed to avoid having any skeletons in our closet when it came time to show off our codebase. This was also crucial to maintaining our atomic design discipline.</p>"
+						"title": "What's Next",
+						"body": "<ul><li>Convert to Typescript</li><li>Implement functional components where applicable</li><li>Implement Immutable.js structures</li><li>Flesh out unit testing suite with Cypress and/or Mocha</li><li>Fork a React Native version :D</li></ul>"
 					},{
-						"title": "Atomic Design",
-						"body": "<p>In creating our UI/UX codebase, we were influenced greatly by <a href=\"http://bradfrost.com/blog/post/atomic-web-design/\" target=\"_blank\">atomic design</a> principles. We broke down every element into the smallest possible chunks of code, then built them back up as context-free as possible.</p><p>This technique allowed us to build a library of pieces we could reuse across the app to assemble our more complex components, while keeping our CSS small and maintainable. It also made testing for 508 compliance much easier, as most of the atomic parts' compliance scaled up into the larger components regardless of how we combined them.</p>"
+						"body": "<p>For more info, check out the repo viewable on GitHub<a href='https://github.com/pixelSHREDDER/tc-dash'>here</a>.</p>"
 					}
 				]
 			},{
@@ -194,24 +193,20 @@
 					}
 				]
 			},{
-				"project_id": "misc-work",
+				"project_id": "angular-cms-app",
 				"sides": [
 					{
-						"title": "Misc. Work",
-						"body": "<p>Development experience from 6+ years.</p><p>Ongoing Redesign of the <a href=\"https://ydwa.org/\" target=\"_blank\">Young Democrats of Washington State's website</a> and <a href=\"https://snocoyd.org/\" target=\"_blank\">chapter websites</a>, in service as VP of Operations/Tech Director</p><p><a href=\"https://devpost.com/software/senior-care-facility-quality-tool\" target=\"_blank\">Senior Care Facility Quality Tool</a>, 3rd Prize winner of the <a href=\"https://dctechhack.devpost.com/\" target=\"_blank\">2013 DC Tech Hackathon Presented by Dun & Bradstreet</a>.</p>"
+						"title": "Angular CMS App",
+						"body": "<p>Worked on a CMS app made in Angular, using Bootstrap with atomic design principles and in compliance with Section 508 accessibility standards.</p><p>Built several unique features including dockable modals, and spearheaded atomic design strategy with integrated style guide, components library, and visual regression testing suite.</p>"
 					},{
-						"title": "Responsive Design Work",
-						"body": "<p>Designed various responsive emails with variable pixel-density image handling.</p><p>Designed a site for use in conjunction with Chromecast devices, intended for large-format viewing on TV screens.</p><p>Built a Flash app in Flex Builder that could dynamically scale its contents, using the same techniques applied by responsive websites.</p>"
+						"title": "Architecture & Workflow",
+						"body": "<p>We began with Angular 1.6. As we built our app, we focused on creating reusable services and factories, and relying less on more restrictive controllers; we migrated to 2.0-compatible components later on.</p><p>Our front-end workflow included a self-imposed rule to add any new elements to our style guide and component library first, and using them for testing purposes and 508 compliance. Only afterwards did we add any new front-end code to the app itself. This kept our code agile in a very organic manner.</p>"
 					},{
-						"title": "API Work",
-						"body": "<p>Various uses of social media APIs, including Twitter, Facebook, Pinterest, and LinkedIn.</p><p>Various uses of Google Maps API functionality for interactive data rendering.</p><p>Various uses of THOMAS and <a href=\"https://www.congress.gov/\" target=\"_blank\">congress.gov</a> API functionality.</p><p>Various uses of multimedia APIs, including Flickr and YouTube (see Manna Manna, above).</p>"
+						"title": "Agile Process",
+						"body": "<p>Our team's agile development process was enhanced greatly by a company-sponsored event run by <a href=\"https://www.scrumalliance.org/community/profile/ldacy\" target=\"_blank\">Lance Dacy</a> (thanks, Lance!).</p><p>Tech debt sprints were integrated into our process, allowing our code to stay polished. We managed to avoid having any skeletons in our closet when it came time to show off our codebase. This was also crucial to maintaining our atomic design discipline.</p>"
 					},{
-						"title": "I've Got Plenty of War Stories",
-						"img": {
-							"src": "//pixel-shredder.com/port/images/dv-misc-4.png",
-							"alt": "Here's what I look like!"
-						},
-						"body": "<h2><a href=\"mailto:pixelSHREDDER@gmail.com\">Ask me about them!</a></h2>"
+						"title": "Atomic Design",
+						"body": "<p>In creating our UI/UX codebase, we were influenced greatly by <a href=\"http://bradfrost.com/blog/post/atomic-web-design/\" target=\"_blank\">atomic design</a> principles. We broke down every element into the smallest possible chunks of code, then built them back up as context-free as possible.</p><p>This technique allowed us to build a library of pieces we could reuse across the app to assemble our more complex components, while keeping our CSS small and maintainable. It also made testing for 508 compliance much easier, as most of the atomic parts' compliance scaled up into the larger components regardless of how we combined them.</p>"
 					}
 				]
 			}
