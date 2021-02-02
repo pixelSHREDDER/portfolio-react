@@ -4,7 +4,7 @@ html {
 }
 body {
 	background-color: #ddf6ec;
-	background-image: url("../images/bg.png");
+	background-image: url("../images/bg.gif");
 	background-size: cover;
 	overflow: hidden;
 	font-family: 'Asap', sans-serif;
@@ -15,34 +15,44 @@ body {
 a {
 	color: #fff;
 }
+button,
+nav a {
+	background: #333;
+	color: #fff;
+	font-weight: 400;
+	text-decoration: none;
+	opacity: 0.95;
+	border: 2px solid #fff;
+	-webkit-transition: ease-in 300ms;
+	-moz-transition: ease-in 300ms;
+	transition: ease-in 300ms;
+}
 button {
 	display: inline-block;
-	background: #7f2412;
-	color: #fff;
 	font-family: 'Asap', sans-serif;
 	font-size: 1rem;
-	font-weight: 400;
 	text-align: center;
-	text-decoration: none;
-    border: none;
-    cursor: pointer;
-	opacity: 0.95;
-	margin: 0 2px;
+	cursor: pointer;
+	margin: 0 -2px;
 	padding: 1rem 2rem;
-	transition: none;
     -webkit-appearance: none;
 	-moz-appearance: none;
 }
 
 button:hover,
 button:focus,
-button:active {
-    background: #f44336;
+button:active,
+nav .active,
+nav a:hover,
+nav a:active,
+nav a:focus {
+	background: #fff;
+	color: #333;
 }
 
-button:focus {
-    outline: 4px solid #fff;
-    outline-offset: -4px;
+button:focus,
+nav a:focus {
+    outline-offset: -2px;
 }
 
 h1 {
@@ -60,7 +70,8 @@ header {
 	top: 0;
 	height: 80px;
 	z-index: 9999;
-	background: #7f2412;
+	background: #333;
+	border-bottom: 2px solid #fff;
 	text-align: center;
 	opacity: 0.95;
 	animation: topSlideIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
@@ -189,9 +200,8 @@ nav {
 	animation: portraitSlideIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 .landscape_mode nav {
-	top: 83px;
+	top: 82px;
 	bottom: auto;
-	left: 3px;
 	text-align: left;
 	animation: landscapeSlideIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
@@ -203,10 +213,26 @@ nav ul {
 nav li {
 	display: inline-block;
 }
+nav li:first-child {
+	margin-bottom: -4px;
+}
+nav li:first-child a {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	padding: 10px 26px;
+}
+nav br+li button {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+nav li:last-child button {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
 .landscape_mode nav li {
 	display: block;
 	width: 18%;
-	margin-bottom: 3px;
+	margin: 0 0 -2px !important;
 }
 .landscape_mode nav li:first-child {
 	width: 10%;
@@ -225,29 +251,22 @@ nav button {
 	display: block;
 	width: 100%;
 	font-size: 0.8rem;
+	border-left-width: 0;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	margin: 0;
 }
 .landscape_mode nav button {
 	padding: 0 20px;
 }
+.landscape_mode nav br+li button {
+	border-top-right-radius: 4px;
+}
 .landscape_mode nav a {
 	width: auto;
 	text-align: center;
-}
-nav a {
-	background: #7f2412;
-	font-weight: 400;
-	text-decoration: none;
-	opacity: 0.95;
-}
-nav .active,
-nav a:hover,
-nav a:active,
-nav a:focus {
-	background: #f44336;
-}
-nav a:focus {
-    outline: 4px solid #fff;
-    outline-offset: -4px;
+	border-top-width: 0;
+	border-top-right-radius: 0 !important;
 }
 nav span {
 	display: block;

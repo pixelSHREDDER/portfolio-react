@@ -31,7 +31,7 @@ const Header = () => {
                 </div>
                 <div role="presentation">
                     <h1>Mike DeVine's Online Portfolio</h1>
-                    <h2>Click or touch to scroll & rotate!</h2>
+                    <h2>Drag to scroll & rotate!</h2>
                 </div>
                 <div role="presentation">
                     <SocialMediaIcons
